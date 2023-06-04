@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int r;
+    cout << "Enter the radius" << endl;
+    cin >> r;
+    int area_of_circle = 3.14 * r * r;
+    cout << area_of_circle << endl;
+}
